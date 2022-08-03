@@ -1,6 +1,6 @@
 # Consume weather
 
-# comandos
+# comands
 
 - Install dependencies
 
