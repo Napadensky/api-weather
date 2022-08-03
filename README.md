@@ -2,7 +2,7 @@
 
 # comandos
 
-- Instalar dependences
+- Install dependencies
 
 ```cmd
 npm install
@@ -40,3 +40,4 @@ npm run lint
 | GET    | /api/v1/location       | Returns user location                                               |
 | GET    | /api/v1/current/:city  | Returns current weather with location user or city. `city`          |
 | GET    | /api/v1/forecast/:city | Returns the week's weather by the user's location or a city. `city` |
+| GET    | /api-doc               | swagger doc                                                         |

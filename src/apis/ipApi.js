@@ -7,7 +7,6 @@ async function getLocationByIp (req) {
 
   const url = `http://ip-api.com/json/${IP}?lang=es`
 
-  // url = parse(`http://ip-api.com/json/190.224.186.32?lang=es`); // example ip
   const response = await nodeFetch(url)
   const data = await response.json()
   return data

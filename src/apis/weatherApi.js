@@ -1,7 +1,6 @@
 const nodeFetch = require('node-fetch')
 
 const APIKEY = process.env.APIKEY
-// const APIKEY = "14b4e644d9a7008f26a9cc6aab1d2a5X";
 
 const createUrl = (cityName, forecast = false) => {
   const base = `https://api.openweathermap.org/data/2.5/${forecast ? 'forecast' : 'weather'}`
